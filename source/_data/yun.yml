@@ -1,0 +1,184 @@
+# 设置欢迎页面
+banner:
+  enable: true
+  title: 星无尘的博客
+#  src: /js/ui/banner.js
+
+
+
+#设置图标
+favicon: /favicon.svg
+
+# Sidebar Avatar(侧边栏，头像等设置)
+avatar:
+  enable: true
+  url: https://cdn.jsdelivr.net/gh/michaelchan90/blog-imgbed/img/michael.jpeg
+  # If true, the avatar would be dispalyed in circle.
+  rounded: true
+  # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
+  opacity: 1
+  mickey_mouse: false
+
+
+#社交账号
+social:
+  - name: GitHub
+    link: https://github.com/MichaelChan90
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: mailto:MichaelChan90@outlook.cn
+    icon: icon-mail-line
+    color: "#8E71C1"
+
+#友情链接
+pages:
+
+# Post wordcount display settings
+# Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+symbols_count_time:
+  item_text_post: true
+  item_text_total: true
+  awl: 2
+  wpm: 275
+
+
+#目录
+menu:
+  home:
+    title: 主页
+    path: /
+    icon: icon-home-4-line
+  archives:
+    title: 归档
+    path: /archives
+    icon: icon-archive-line
+  tags:
+    title: 标签
+    path: /tags
+    icon: icon-price-tag-3-line
+  categories:
+    title: 分类
+    path: /categories
+    icon: icon-folder-2-line
+  custom:
+    title: 留言板
+    path: /about/#comment
+    icon: icon-settings-line
+
+#目录设置
+toc:
+  list_number: true
+  max_depth: 6
+  min_depth: 1
+  placeholder: 很遗憾，咱没写啥目录
+
+
+# 欢迎
+notice:
+  enable: true
+  content: 欢迎观光！
+
+
+# Comments
+# -------
+comment:
+  enable: true
+  tips:
+    - 若您无 GitHub 账号，可直接在下方匿名评论。
+    - 若您想及时得到回复提醒，建议跳转 GitHub Issues 评论。
+    - 若没有本文 Issue，您可以使用 Comment 模版新建。
+
+# GitHub Issues Link Button
+# https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests
+github_issues:
+  enable: true
+  username: MichaelChan90
+  repository: michaelchan90.github.io
+  filters: is:issue  
+
+# 留言板
+# Valine 
+# You can get your appid and appkey from https://leancloud.cn
+# More info available at https://valine.js.org
+valine:
+  enable: true
+# your leancloud application appid
+  appId: iipwgnalQVgbJ4zkD73hdijc-gzGzoHsz
+# your leancloud application appkey
+  appKey: 5JIzDrV0RDGP8DjI4UYsfB38
+  serverURLs:
+# another choice: https://github.com/DesertsP/Valine-Admin
+# mail notifier, See: https://github.com/xCss/Valine/wiki
+  notify: false
+# Verification code
+  verify: true
+# comment box placeholder
+  placeholder: 欢迎留言
+# gravatar style
+  avatar: 
+# custom comment header
+  meta: nick,mail,link
+# pagination size 
+  pageSize: 10 
+  visitor: false
+  visitor_index: false
+
+
+
+#打赏设置
+reward_settings:
+  enable: true
+  icon: icon-hand-coin-line
+  comment: 求打赏
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+#打赏二维码
+reward:
+  - name: 支付宝
+    path: https://cdn.jsdelivr.net/gh/michaelchan90/blog-imgbed/img/AliPay.png
+    color: "#00A3EE"
+    icon: icon-alipay-line
+  - name: 微信支付
+    path: https://cdn.jsdelivr.net/gh/michaelchan90/blog-imgbed/img/WechatPay.png
+    color: "#2DC100"
+    icon: icon-wechat-pay-line
+
+#页脚
+footer:
+  since: 2020
+  icon:
+    name: icon-cloud-line
+    animated: true
+    color: "#0078E7"
+  powered:
+    enable: true
+    version: true
+  beian:
+    enable: false
+    icp: 京ICP备xxxxxxxx号
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: "2020-05-01T00:00:00"
+
+#随机一句话
+say:
+  enable: true
+  api: /data/sentences.json
+  src: /js/say.js
+  hitokoto:
+    enable: false
+
+#默哀日
+mourn:
+  enable: true
+  days:
+    - "4-4"
+
+#文章搜索栏
+local_search:
+  enable: true
+  src: /js/search/local-search.js
+
+

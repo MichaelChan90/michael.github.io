@@ -34,14 +34,6 @@ social:
 #友情链接
 pages:
 
-# Post wordcount display settings
-# Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-symbols_count_time:
-  item_text_post: true
-  item_text_total: true
-  awl: 2
-  wpm: 275
-
 
 #目录
 menu:
@@ -186,5 +178,3 @@ local_search:
 #  enable: true
 #  href: "https://www.google.com/search?q=site:"
 #  domain: michaelchan90.github.io
-
-

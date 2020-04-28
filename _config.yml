@@ -59,7 +59,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 15
   order_by: -date
 
 # Category & Tag
@@ -119,3 +119,16 @@ aplayer:
   meting_cdn: https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js
   meting: true
   asset_inject: false
+
+#字数统计
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  item_text_post: true
+  item_text_total: true
+  exclude_codeblock: false
+  awl: 4
+  wpm: 275
+  suffix: "mins."
